@@ -21,10 +21,10 @@ SOCIAL_AUTH_FACEBOOK_SECRET = '#'
 ### The project should look like the images below
 
 >>Login Page
-![Auth-01](https://user-images.githubusercontent.com/59056176/93690791-e321fe80-fab2-11ea-8a3d-4bfac411adc1.png)
+![Login Page](https://user-images.githubusercontent.com/59056176/93690791-e321fe80-fab2-11ea-8a3d-4bfac411adc1.png)
 
 >>Auth Page
-![Auth-02](https://user-images.githubusercontent.com/59056176/93690797-f92fbf00-fab2-11ea-9088-dda7d227782e.png)
+![Auth Page](https://user-images.githubusercontent.com/59056176/93690797-f92fbf00-fab2-11ea-9088-dda7d227782e.png)
 
 >>Home Application Page
-![Auth-03](https://user-images.githubusercontent.com/59056176/93690808-16648d80-fab3-11ea-9432-cb84254d9ab4.png)
+![Home Page](https://user-images.githubusercontent.com/59056176/93690808-16648d80-fab3-11ea-9432-cb84254d9ab4.png)
