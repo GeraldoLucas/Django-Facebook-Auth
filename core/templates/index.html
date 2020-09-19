@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block title %} Home Page {% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-sm-12 mb-3">
+        <h4 class="text-center">Welcome {{ user.username }}</h4>
+    </div>
+
+    {% for i in backends.associated %}
+        {% if i.provider == 'facebook' %}
+            <div class="col-md-4 text-center">
+                <img src="{{ i.extra_data.picture.data.url }}" alt="" width="120" height="120" style="border-radius: 20%;">
+            </div>
+
+            <div class="col-md-8 social-container my-2">
+                <p>Online with: {{ i.provider|title }}</p>
+                <p>Name: {{ i.extra_data.name }}</p>
+                <p>Profile: <a href="{{ i.extra_data.profile.url }}">Acess </a></p>
+            </div>
+
+        {% endif %}
+    {% endfor %}
+    <div class="col-sm-12 mt-2 text-center">
+        <button class="btn btn-warning">
+            <a href="{% url 'logout' %}">Logout</a>
+        </button>
+    </div>
+
+</div>
+
+{% endblock %}
