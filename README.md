@@ -25,3 +25,5 @@ SOCIAL_AUTH_FACEBOOK_SECRET = '#'
 >>![Auth Page](https://user-images.githubusercontent.com/59056176/93690797-f92fbf00-fab2-11ea-9088-dda7d227782e.png)
 
 >>![Home Page](https://user-images.githubusercontent.com/59056176/93690808-16648d80-fab3-11ea-9432-cb84254d9ab4.png)
+
+>>The next ideas will be to bring other authentication systems with either Google, Yahoo, Twitter, Instagram into the project
