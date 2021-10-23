@@ -1,4 +1,4 @@
-# Django-Facebook-Auth
+# Django Facebook Auth
 
 >>This is a simple repository using Django and Python in order to create an authentication system with facebook
 
